@@ -41,6 +41,7 @@
             this.btnExpress.TabIndex = 0;
             this.btnExpress.Text = "Express $30";
             this.btnExpress.UseVisualStyleBackColor = true;
+            this.btnExpress.Click += new System.EventHandler(this.btnExpress_Click);
             // 
             // btnCera
             // 

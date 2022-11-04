@@ -7,22 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ManejadoresAutolavado;
-using EntidadesAutolavado;
 
 namespace PresentaciónAutolavado
 {
-    public partial class FrmMenu : Form
+    public partial class FrmCobrar : Form
     {
-        public static int pago = 0;
-        public FrmMenu()
+        public FrmCobrar()
         {
             InitializeComponent();
-        }
-
-        private void btnExpress_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

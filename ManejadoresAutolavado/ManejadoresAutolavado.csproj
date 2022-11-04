@@ -45,5 +45,11 @@
     <Compile Include="ManejadorLavado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadesAutolavado\EntidadesAutolavado.csproj">
+      <Project>{0cd8f633-93a9-49d6-a4f9-3d6dfcc7d40d}</Project>
+      <Name>EntidadesAutolavado</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

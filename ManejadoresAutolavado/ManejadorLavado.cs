@@ -11,7 +11,25 @@ namespace ManejadoresAutolavado
         const int segundos = 1000;
         public int Mojado()
         {
-            return 5*segundos;
+            return 3*segundos;
+        }
+
+        public int Enjabonado()
+        {
+            return 5 * segundos;
+        }
+        public int Enjuagado()
+        {
+            return 5 * segundos;
+        }
+        public int Secado()
+        {
+            return 3 * segundos;
+        }
+
+        public int LimpiezaInt()
+        {
+            return 7 * segundos;
         }
     }
 }
