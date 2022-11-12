@@ -1,0 +1,9 @@
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\bin\Debug\ManejadoresAutolavado.dll
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\bin\Debug\ManejadoresAutolavado.pdb
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\bin\Debug\EntidadesAutolavado.dll
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\bin\Debug\EntidadesAutolavado.pdb
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\obj\Debug\ManejadoresAutolavado.csproj.AssemblyReference.cache
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\obj\Debug\ManejadoresAutolavado.csproj.CoreCompileInputs.cache
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\obj\Debug\ManejadoresAutolavado.csproj.CopyComplete
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\obj\Debug\ManejadoresAutolavado.dll
+D:\VS 2022 Soluciones\Autolavado\ManejadoresAutolavado\obj\Debug\ManejadoresAutolavado.pdb

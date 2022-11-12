@@ -51,6 +51,7 @@
             this.btnCera.TabIndex = 1;
             this.btnCera.Text = "Cera $40";
             this.btnCera.UseVisualStyleBackColor = true;
+            this.btnCera.Click += new System.EventHandler(this.btnCera_Click);
             // 
             // btnTotal
             // 
@@ -60,6 +61,7 @@
             this.btnTotal.TabIndex = 2;
             this.btnTotal.Text = "Total $50";
             this.btnTotal.UseVisualStyleBackColor = true;
+            this.btnTotal.Click += new System.EventHandler(this.btnTotal_Click);
             // 
             // FrmMenu
             // 

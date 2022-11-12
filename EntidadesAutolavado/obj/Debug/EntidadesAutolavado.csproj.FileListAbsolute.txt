@@ -1,0 +1,6 @@
+D:\VS 2022 Soluciones\Autolavado\EntidadesAutolavado\bin\Debug\EntidadesAutolavado.dll
+D:\VS 2022 Soluciones\Autolavado\EntidadesAutolavado\bin\Debug\EntidadesAutolavado.pdb
+D:\VS 2022 Soluciones\Autolavado\EntidadesAutolavado\obj\Debug\EntidadesAutolavado.csproj.AssemblyReference.cache
+D:\VS 2022 Soluciones\Autolavado\EntidadesAutolavado\obj\Debug\EntidadesAutolavado.csproj.CoreCompileInputs.cache
+D:\VS 2022 Soluciones\Autolavado\EntidadesAutolavado\obj\Debug\EntidadesAutolavado.dll
+D:\VS 2022 Soluciones\Autolavado\EntidadesAutolavado\obj\Debug\EntidadesAutolavado.pdb

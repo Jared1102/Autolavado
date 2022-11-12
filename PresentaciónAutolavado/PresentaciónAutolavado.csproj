@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ButtonRound.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrmCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCambio.Designer.cs">
+      <DependentUpon>FrmCambio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCobrar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +67,25 @@
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProceso.Designer.cs">
+      <DependentUpon>FrmProceso.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCambio.resx">
+      <DependentUpon>FrmCambio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCobrar.resx">
       <DependentUpon>FrmCobrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProceso.resx">
+      <DependentUpon>FrmProceso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +95,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -97,6 +119,39 @@
       <Project>{9aa2e19e-fcd1-4223-b6ca-1107cbba6ecc}</Project>
       <Name>ManejadoresAutolavado</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billete_1000.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billete500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billete_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billete_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billete_50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billete_20.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneda_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneda_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneda_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneda_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneda_50c.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

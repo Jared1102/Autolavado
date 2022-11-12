@@ -11,9 +11,41 @@ namespace ManejadoresAutolavado
     {
         private Random random = new Random();
         private List<Ticket> tickets = new List<Ticket>();
-        public void Cobrar(Ticket ticket)
+        public int[] GenerarCambio(Ticket ticket)
         {
-            tickets.Add(ticket);
+            int[] contador = { 0, 0, 0, 0, 0, 0 };
+            do
+            {
+                if (ticket.Cambio/50 >=1)
+                {
+                    contador[0]++;
+                    ticket.Cambio -= 50;
+                }else if(ticket.Cambio/20 >= 1)
+                {
+                    contador[1]++;
+                    ticket.Cambio -= 20;
+                }
+                else if (ticket.Cambio/10>=1)
+                {
+                    contador[2]++;
+                    ticket.Cambio -= 10;
+                }else if (ticket.Cambio / 5 >= 1)
+                {
+                    contador[3]++;
+                    ticket.Cambio -= 5;
+                }
+                else if (ticket.Cambio / 2 >= 1)
+                {
+                    contador[4]++;
+                    ticket.Cambio -= 2;
+                }
+                else if (ticket.Cambio / 1 >= 1)
+                {
+                    contador[5]++;
+                    ticket.Cambio -= 1;
+                }
+            } while (ticket.Cambio!=0);
+            return contador;
         }
     }
 }

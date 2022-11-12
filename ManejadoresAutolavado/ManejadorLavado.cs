@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EntidadesAutolavado;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,11 @@ namespace ManejadoresAutolavado
         public int LimpiezaInt()
         {
             return 7 * segundos;
+        }
+
+        public int Encerado()
+        {
+            return 6 * segundos;
         }
     }
 }
